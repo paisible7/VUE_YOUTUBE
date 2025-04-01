@@ -28,3 +28,46 @@ coverage
 *.sw?
 
 *.tsbuildinfo
+
+.vscode
+
+# Environment files
+.env
+.env.*.local
+
+# Local build outputs
+build
+out
+
+# Dependency directories
+jspm_packages/
+
+# IDE specific files
+*.code-workspace
+
+# Vue specific files
+*.cache
+*.output.js
+*.output.css
+
+# Storybook files
+storybook-static
+
+# Temporary files
+*.tmp
+*.temp
+
+# MacOS specific files
+.AppleDouble
+.LSOverride
+
+# Windows specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# VSCode settings
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+.vscode/jsconfig.json
